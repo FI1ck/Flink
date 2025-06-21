@@ -1,0 +1,29 @@
+.Desc_box {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#Desc_text {
+    display: flex;
+    color: #D8F0FA;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.Desc_ids {
+    display: flex;
+    gap: 8px;
+}
+
+.Desc_id {
+    width: 42px;
+    height: 1px;
+    background: #2E3233;
+}
+
+.active_id {
+    background-color: #D8F0FA;
+}
